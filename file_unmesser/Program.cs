@@ -57,7 +57,8 @@ namespace file_unmesser
                 string[] fileList = Directory.GetFiles(workingDirectory, "*" + input + "*");
                 
                 // Some Output
-                Console.WriteLine("There are " + count.Count() + " total files. \nThere will be " + fileList.Count() + " deleted. \nPress n to stop or y to continue.");
+                Console.WriteLine("There are " + count.Count() + " total files. \nThere will be " + fileList.Count() +
+                    " deleted. \nPress n to stop or y to continue.");
 
                 // Ask "are you sure" and Wait to continue
                 string inputKey = Console.ReadLine();
